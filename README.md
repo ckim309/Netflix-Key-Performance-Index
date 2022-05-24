@@ -59,9 +59,10 @@ Revenue per Subscriber in 2018 and 2019
 
 
 -------------------------------------------------------------------------------------------------------
-When assessing at Netflix on a global scale, there is an increase in the total revenue and the total number of subscribers despite there being an increase in price of a subscription.
+When assessing at Netflix on a global scale, there is an increase in the total revenue and the total number of subscribers despite there being an increase in price of a subscription. There is also a global increase in the retention rate, with the US & Canada holding the highest retention rate. We see that as more customers continue to subscribe, the more revenue is generated.
 
-There is also a global increase in the retention rate, with the US & Canada holding the highest retention rate. As more customers continue to subscriber, the more revenue is generated.
+From this, we can hypothesize that if the services (DVD rentals) on Netflix are entertaining, then the customers will pay more and continue to use Netflix. 
+Further analysis will be necessary to accept to reject the hypothesis. However, I do not have the data.
 
 The number of subscribers is important in driving revenue. But based on the data, it is not the main factor in generating revenue. If it was, then it can be said that the order in which region generates the most revenue is as follows:
   1. US & Canada
