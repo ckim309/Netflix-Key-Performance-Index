@@ -4,6 +4,7 @@ Netflix is a subscription-based streaming platform that allows users to view mov
 Netflix generates revenue in 2 ways:
 - subscription plans
     - There are 3 payment plans: Basic, Standard, Premium.
+    
 - DVD rentals
 
 We will only be looking at subscriptions.
