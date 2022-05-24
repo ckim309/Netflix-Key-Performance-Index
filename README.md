@@ -55,7 +55,7 @@ Revenue per Subscriber in 2018 and 2019
 
 
 
-
+-------------------------------------------------------------------------------------------------------
 The number of subscribers is important in driving revenue. But based on the data, it is not the main factor in generating revenue. If it was, then it can be said that the order in which region generates the most revenue is as follows:
   1. US & Canada
   2. EMEA
