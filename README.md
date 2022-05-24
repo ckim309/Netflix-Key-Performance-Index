@@ -33,4 +33,4 @@ There is another factor that is driving revenue other than subscription plans be
   3. Latin America
   4. Asia-Pacific
   
-However, Asia-Pacific generates more revenue per subscriber than Latin America. 
+However, Asia-Pacific generates more revenue per subscriber than Latin America. The rate at which revenue is generated is not proportionate to the rate of subscribers. In the US & Canada, we see from Q1 2019 to Q3 2019, there is a large spike in revenue despite losing subscribers during the initial stages of that period. 
