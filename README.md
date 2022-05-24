@@ -53,12 +53,17 @@ Revenue per Subscriber in 2018 and 2019
 - US & Canada lead each year, followed by EMEA
 - Asia-Pacific generates more revenue per subscriber than Latin Americadespite having less subscribers
 
-DVD rentals is another key factor that is driving revenue other than subscription plans because if subscription plans were the main factor, then it can be said that the order in which region generates the most revenue is as follows:
+
+
+
+The number of subscribers is important in driving revenue. But based on the data, it is not the main factor in generating revenue. If it was, then it can be said that the order in which region generates the most revenue is as follows:
   1. US & Canada
   2. EMEA
   3. Latin America
   4. Asia-Pacific
   
+because Latin America has more subscribers than Asia-Pacific.
+
 However, Asia-Pacific generates more revenue per subscriber than Latin America. The rate at which revenue is generated is not proportionate to the rate of subscribers. In the US & Canada, we see from Q1 2019 to Q3 2019, there is a large spike in revenue despite losing subscribers during the initial stages of that period. Contrastingly in Latin America, there is a drop in revenue from Q2 2018 to Q3 2018, but there was an increase in subscribers. 
 
 Therefore, as important as it is to retain and accumulate more subscribers, it is also important to analyze DVD rentals. 
