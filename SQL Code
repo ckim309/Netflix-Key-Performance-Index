@@ -1,0 +1,37 @@
+------------------------------------------------
+-- Quarterly: Revenue and Subscribers Trend
+------------------------------------------------
+WITH cte AS (
+	SELECT 
+		R.Area, r.Year, r.Quarter, r.YearQuarter,
+		SUM(r.Revenue) AS TotalRevenue, 
+		SUM(r.Revenue) - LAG(SUM(r.Revenue)) OVER(PARTITION BY r.Area ORDER BY r.Year, r.Quarter) AS RevenueDifference,
+		SUM(s.Subscribers) AS TotalSubscribers,
+		SUM(s.Subscribers) - LAG(SUM(s.Subscribers)) OVER(PARTITION BY r.Area ORDER BY r.Year, r.Quarter) AS SubscribersDifference
+	FROM NetSub..Revenue r INNER JOIN NetSub..Subscriber s
+		ON r.Area = s.Area
+		AND r.Quarter = s.Quarter
+		AND r.Year = s.Year
+		AND r.YearQuarter = s.YearQuarter
+	GROUP BY R.Area, r.Year, r.Quarter, r.YearQuarter
+	)
+SELECT
+	Area, Year, Quarter, YearQuarter, TotalRevenue, RevenueDifference,
+	ROUND((RevenueDifference/TotalRevenue),4) AS RevenuePercentage,
+	TotalSubscribers, SubscribersDifference,
+	ROUND((SubscribersDifference/TotalSubscribers),4) AS SubscribersPercentage
+FROM cte
+
+------------------------------------------------
+-- Revenue Generated per Subscriber
+------------------------------------------------
+SELECT 
+	r.Area, r.Year, r.Quarter, r.YearQuarter,
+	ROUND((SUM(r.Revenue)/SUM(s.Subscribers)),2) AS RevenuePerSubscriber
+FROM NetSub..Revenue r INNER JOIN NetSub..Subscriber s
+	ON r.Area = s.Area
+	AND r.Quarter = s.Quarter
+	AND r.Year = s.Year
+GROUP BY r.Area, r.Year, r.Quarter, r.YearQuarter
+ORDER BY r.Year, r.Quarter
+
