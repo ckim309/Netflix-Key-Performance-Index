@@ -76,5 +76,5 @@ However, Asia-Pacific generates more revenue per subscriber than Latin America. 
 
 Therefore, as important as it is to retain and accumulate more subscribers, it is also important to analyze DVD rentals. 
 DVD rentals can be assessed in two ways:
-1. the quamtity put available for the customers
+1. the quantity of the DVD rentals
 2. the quality of the DVD rentals
