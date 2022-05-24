@@ -18,10 +18,10 @@ How well did Netflix perform in terms of Revenue and Subscribers from 2018 to 20
 
 - breaking down Revenue and Subscribers into regions: 
   - Percentage of Revenue and Subscribers per Region
-  1. US & Canada
-  2. EMEA
-  3. Latin America
-  4. Asia-Pacific
+1. US & Canada
+2. EMEA
+3. Latin America
+4. Asia-Pacific
 
 
   - US & Canada:
