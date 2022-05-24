@@ -23,6 +23,9 @@ Global:
 
 
 Regional:
+- Retention Rate
+    - US & Canada Have the highest retention rate
+    - all regions increased their retention from 2018 to 2019
 
 - Where does most of our revenue come from?
 1. US & Canada
