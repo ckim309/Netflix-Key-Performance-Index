@@ -1,4 +1,27 @@
 ------------------------------------------------
+-- Retention Rate
+------------------------------------------------
+WITH cte2 AS (
+	SELECT
+		Area, Year, Quarter, Subscribers,
+		Subscribers - LAG(Subscribers,3) OVER(PARTITION BY Area, Year ORDER BY Year) AS CustomersAquired,
+		(Subscribers - (Subscribers - LAG(Subscribers,3) OVER(PARTITION BY Area, Year ORDER BY Year))) AS Initial
+	FROM NetSub..Subscriber
+	WHERE Year = 2018 OR
+		Year = 2019
+	GROUP BY Area, Year, Quarter, Subscribers
+)
+SELECT
+	c.Year, c.Area, c.Subscribers, c.CustomersAquired, c.Initial,
+	 ROUND((c.Initial/s.Subscribers),5) AS RetentionRate
+FROM cte2 c LEFT JOIN NetSub..Subscriber s
+	ON (c.Year = s.Year)
+	AND (c.Area = s.Area)
+	AND (c.Subscribers = s.Subscribers)
+WHERE c.Quarter = 'Q4' OR s.Quarter = 'Q1'
+	AND c.Initial IS NOT NULL;
+
+------------------------------------------------
 -- Quarterly: Revenue and Subscribers Trend
 ------------------------------------------------
 WITH cte AS (
@@ -34,4 +57,6 @@ FROM NetSub..Revenue r INNER JOIN NetSub..Subscriber s
 	AND r.Year = s.Year
 GROUP BY r.Area, r.Year, r.Quarter, r.YearQuarter
 ORDER BY r.Year, r.Quarter
+
+
 
