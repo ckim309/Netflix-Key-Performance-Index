@@ -13,7 +13,7 @@ We will only be looking at subscriptions.
 Assumptions:
 - There is no data on the type of plans that were used, so we will assume that all subscribers applied for the standard plan.
   - From 2018 to 2019, the cost of the standard plan of Netflix jumped from $10.99 to $12.99.
-    - We will assume that the conversion rate from dollars to other currencies is 1:1 and that the revenue is adjusted to be in dollars.
+- We will assume that the conversion rate from dollars to other currencies is 1:1 and that the revenue is already adjusted to be in dollars.
 
 
 ## How well did Netflix perform in terms of Revenue and Subscribers from 2018 to 2019?
