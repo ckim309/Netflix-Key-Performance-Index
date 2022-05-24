@@ -18,7 +18,7 @@ Assumptions:
 - global scale: constant increase from 2018 to 2019 in terms of total revenue and the total number of subscribers
 
 
-# Breaking down Revenue and Subscribers into regions: 
+### Breaking down Revenue and Subscribers into regions: 
 
 - Where does most of our revenue come from?
 1. US & Canada
