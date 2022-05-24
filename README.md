@@ -16,8 +16,16 @@ Assumptions:
 How well did Netflix perform in terms of Revenue and Subscribers from 2018 to 2019?
 - global scale: constant increase from 2018 to 2019 in terms of total revenue and the total number of subscribers
 
-- breaking down Revenue and Subscribers into regions: 
-  - Percentage of Revenue and Subscribers per Region
+
+Breaking down Revenue and Subscribers into regions: 
+
+- Where does most of our revenue come from?
+1. US & Canada
+2. EMEA
+3. Latin America
+4. Asia-Pacific
+
+- Where dp most of our subscribers come from?
 1. US & Canada
 2. EMEA
 3. Latin America
