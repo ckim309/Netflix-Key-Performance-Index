@@ -13,11 +13,12 @@ Assumptions:
   - From 2018 to 2019, the cost of the standard plan of Netflix jumped from $10.99 to $12.99.
     - We will assume that the conversion rate from dollars to other currencies is 1:1 and that the revenue is adjusted to be in dollars.
 
-How well did Netflix perform in terms of Revenue and Subscribers from 2018 to 2019?
+
+## How well did Netflix perform in terms of Revenue and Subscribers from 2018 to 2019?
 - global scale: constant increase from 2018 to 2019 in terms of total revenue and the total number of subscribers
 
 
-Breaking down Revenue and Subscribers into regions: 
+# Breaking down Revenue and Subscribers into regions: 
 
 - Where does most of our revenue come from?
 1. US & Canada
