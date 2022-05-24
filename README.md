@@ -64,7 +64,7 @@ When assessing at Netflix on a global scale, there is an increase in the total r
 From this, we can hypothesize that if the services (DVD rentals) on Netflix are entertaining, then the customers will pay more and continue to use Netflix. 
 Further analysis will be necessary to accept to reject the hypothesis. However, I do not have the data.
 
-The number of subscribers is important in driving revenue. But based on the data, it is not the main factor in generating revenue. If it was, then it can be said that the order in which region generates the most revenue is as follows:
+The number of subscribers is important in driving revenue. But based on the data, it is not the only factor in generating revenue. If it was, then it can be said that the order in which region generates the most revenue is as follows:
   1. US & Canada
   2. EMEA
   3. Latin America
