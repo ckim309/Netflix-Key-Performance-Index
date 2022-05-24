@@ -15,10 +15,11 @@ Assumptions:
 
 
 ## How well did Netflix perform in terms of Revenue and Subscribers from 2018 to 2019?
-- global scale: constant increase from 2018 to 2019 in terms of total revenue and the total number of subscribers
+Global scale: 
+-constant increase from 2018 to 2019 in terms of total revenue and the total number of subscribers
 
 
-### Breaking down Revenue and Subscribers into regions: 
+Regional:
 
 - Where does most of our revenue come from?
 1. US & Canada
@@ -26,13 +27,13 @@ Assumptions:
 3. Latin America
 4. Asia-Pacific
 
-- Where dp most of our subscribers come from?
+- Where do most of our subscribers come from?
 1. US & Canada
 2. EMEA
 3. Latin America
 4. Asia-Pacific
 
-
+Quarterly Trend
   - US & Canada:
     - leads all regions in the total amount of revenue generated and total number of subscribers
     - constant increase in total revenue
@@ -45,7 +46,10 @@ Assumptions:
      - constant increase in number of subscribers
   - Asia-Pacific:
      - constant increase in total revenue and total subscribers
-     - generates more revenue per subscriber than Latin America despite Latin America having more subscribers than Asia-Pacific in 2018 and in 2019
+
+Revenue per Subscriber in 2018 and 2019
+- US & Canada lead each year, followed by EMEA
+- Asia-Pacific generates more revenue per subscriber than Latin Americadespite having less subscribers
 
 There is another factor that is driving revenue other than subscription plans because the amount of revenue generated per subscriber is greater than the subscription cost. If subscription plans were the only factor driving revenue, then it can be said that the order in which region generates the most revenue is as follows:
   1. US & Canada
